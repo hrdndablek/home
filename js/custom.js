@@ -33,3 +33,14 @@ btn.on('click', function(e) {
   e.preventDefault();
   $('html, body').animate({scrollTop:0}, '300');
 });
+
+$('#form-submit').on('click', function (event) {
+  event.preventDefault();
+  let name=document.getElementById("name").value;
+  let subject = 'Quote Request';
+  let email= document.getElementById("email").value;
+  let phone= document.getElementById("phone").value;
+  let message= document.getElementById("message").value;
+  let mail="mailto:hrdndablek@gmail.com?";
+  window.open(mail+subject+'&body= name : '+name+' phone :'+phone+' email :'+email+' message : '+message);
+});
