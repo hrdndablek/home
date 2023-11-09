@@ -13,7 +13,7 @@
   <meta name="author" content="" />
 
   <title>HRD Ndablek</title>
-
+  <link rel="icon" type="image/png" href="images/logo.png" />
 
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
@@ -36,7 +36,9 @@
       <div class="container-fluid">
         <nav class="navbar navbar-expand-lg custom_nav-container ">
           <a class="navbar-brand" href="index.html">
+            
             <span>
+              <img src="images/logo.png" alt="" width="38px" height="38px">
               HRD NDABLEK
             </span>
           </a>
@@ -79,7 +81,10 @@
               <div class="row">
                 <div class="col-md-6">
                   <div class="img-box">
-                    <img src="images/slider-img-3.jpg" alt="">
+                    <div class="">
+                      <img src="images/slider-img-3.jpg" alt="">
+                    </div>
+                    
                   </div>
                 </div>
                 <div class="col-md-6">
@@ -106,7 +111,10 @@
               <div class="row">
                 <div class="col-md-6">
                   <div class="img-box">
-                    <img src="images/slider-img-4.jpg" alt="">
+                    <div class="">
+                      <img src="images/slider-img-4.jpg" alt="">
+                    </div>
+                    
                   </div>
                 </div>
                 <div class="col-md-6">
@@ -190,7 +198,7 @@
               <p>
                 Kumpulan materi dan kitab suci HRD
               </p>
-              <a href="service.html#perpustakaan">
+              <a href="" data-toggle="modal" data-target="#perpus">
                 <span>
                   Read More
                 </span>
@@ -198,6 +206,7 @@
               </a>
             </div>
           </div>
+
         </div>
         <div class="col-md-6 col-lg-3">
           <div class="box">
@@ -211,7 +220,7 @@
               <p>
                 Pengurusan legalitas perusahaan
               </p>
-              <a href="service.html#legalitas">
+              <a href="" data-toggle="modal" data-target="#izin">
                 <span>
                   Read More
                 </span>
@@ -232,7 +241,7 @@
               <p>
                 Jasa konsultasi berkaitan dengan permasalahan Perdata Pidana
               </p>
-              <a href="service.html#support">
+              <a href="" data-toggle="modal" data-target="#supp">
                 <span>
                   Read More
                 </span>
@@ -650,6 +659,93 @@
       </div>
     </footer>
     <!-- footer section -->
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="perpus" role="dialog">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <!-- <h4 class="modal-title">Modal Header</h4> -->
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="images/perpus-1.jpg" alt=""class="img-fluid" width="350px"></img>
+
+            </div>
+            <div class="col-md-4">
+              <img src="images/perpus-2.jpg" alt=""class="img-fluid" width="350px"></img>
+            </div>
+
+            <div class="col-md-4">
+              <img src="images/perpus-3.jpg" alt=""class="img-fluid" width="350px"></img>
+            </div>
+          </div>
+          <p>            
+          </p>          
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+  <div class="modal fade" id="izin" role="dialog">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <!-- <h4 class="modal-title">Modal Header</h4> -->
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-12">
+              <iframe class="img-fluid" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vREfAkZtoCEyoNMWlQfr3BIi_WUREpNL3rkBqgJ86udt2GcgAfr1AACfvabSZywa5Ew-PHT_XYJbmi7/pubhtml?gid=58121379&amp;single=true&amp;widget=true&amp;headers=false"></iframe>      
+              </div>
+          </div>
+          <p>            
+          </p>          
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+  <div class="modal fade" id="supp" role="dialog">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <!-- <h4 class="modal-title">Modal Header</h4> -->
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-8">
+            <img src="images/supp.jpg" alt=""class="img-fluid" width="480px"></img>
+            </div>
+          </div>
+          <p>            
+          </p>          
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
   </div>
 
   <!-- Back to top button -->
